@@ -1,20 +1,30 @@
-@media (max-width: 960px) {
-  /* For a screen < 960px, this CSS will be read */
-  .container {
-    width: 700px;
-  }
+/* Here goes your CSS */
+#sidebar {
+  position: fixed;
+  width: 100px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background: #263238;
+  text-align: center;
 }
-@media (max-width: 720px) {
-  /* For a screen < 720px, this CSS will be read */
-  .container {
-    width: 500px;
-  }
+
+#sidebar > ul > li{
+  margin: 80px 0;
+  opacity: 0.5;
 }
-@media (max-width: 540px) {
-  /* For a screen < 540px, this CSS will be read */
-  .container {
-    width: 300px;
-  }
+
+#sidebar > ul > li:hover{
+  opacity: 1;
+}
+
+#sidebar > ul > li > a{
+  font-size:25px;
+  color:white;
+}
+
+#content {
+  margin-left: 100px;
 }
 
 body{
@@ -54,8 +64,7 @@ ul{
   padding: 0;
 }
 
-
-li{
+.card > ul > li{
   display:inline;
   padding: 0 30px;
   font-size: 18px;
