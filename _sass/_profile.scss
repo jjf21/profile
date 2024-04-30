@@ -1,0 +1,25 @@
+.profile {
+  display: flex;
+}
+
+.profile--img {
+  height: 140px;
+  border-radius: 100px;
+  margin-right: var(--space-l)
+}
+
+.profile--content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.profile--content > span {
+  padding-bottom: var(--space-s);
+}
+
+
+.profile--title {
+  font-size: var(--font-size-l);
+  font-weight: bold;
+}

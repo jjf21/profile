@@ -1,0 +1,23 @@
+---
+layout: default
+title: Blog
+permalink: /blog/
+---
+
+{%- if site.posts.size > 0 -%}
+  <h2>Blog</h2>
+  <ul class="posts">
+    {%- for post in site.posts -%}
+    <li class="post">
+      <h3 class="post--title">
+        <a class="post--link" href="{{ post.url | relative_url }}">
+          {{ post.title | escape }}
+        </a>
+      </h3>
+      <span class="post--excerpts">{{ post.excerpts }}</span>
+      <span class="post--meta">{{ post.date | date: site.date_format }}</span>
+    </li>
+    {%- endfor -%}
+  </ul>
+
+{%- endif -%}
