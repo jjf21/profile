@@ -117,6 +117,15 @@ li { list-style: none; }
     margin-bottom: var(--space-m);
     display: inline-block;
   }
+
+  .profile--img {
+    margin-right: var(--space-m) !important
+  }
+
+  .profile--content {
+    margin-left: var(--space-m) !important
+  }
+
 }
 
 .post {

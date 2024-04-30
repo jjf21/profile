@@ -1,21 +1,25 @@
 .profile {
   display: flex;
+  justify-content: space-between;
+  justify-content: center;
 }
 
 .profile--img {
   height: 140px;
   border-radius: 100px;
-  margin-right: var(--space-l)
+  margin-right: var(--space-xl)
 }
 
 .profile--content {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-left: var(--space-xl)
 }
 
 .profile--content > span {
   padding-bottom: var(--space-s);
+  white-space: nowrap;
 }
 
 
