@@ -107,6 +107,10 @@ li { list-style: none; }
     padding: 0 var(--space-l);
   }
 
+  .menu {
+    justify-content: flex-start !important;
+  }
+
   .project:hover {
     transform: initial !important;
   }
@@ -124,6 +128,10 @@ li { list-style: none; }
 
   .profile--content {
     margin-left: var(--space-m) !important
+  }
+
+  .project {
+    padding: var(--space-l) !important
   }
 
 }
