@@ -43,6 +43,7 @@
   margin-bottom: var(--space-l);
   color: #949496;
   transition: 1.5s;
+  line-height: calc(var(--font-size-base) * 1.4);
 }
 
 .project--tags {

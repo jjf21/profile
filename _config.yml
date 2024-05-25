@@ -7,6 +7,11 @@ author:
 description: >-
   Carl Quivron | Freelance Web developer | Ruby On Rails
 baseurl: ""
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/avatar.png
 url: "https://carlquivron.fr"
 twitter_username: carlquivron
 github_username:  jjf21
