@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How to Implement Dedicated Subdomains in a Ruby on Rails App Hosted on Heroku"
+title:  "How to Implement dynamic Subdomains in a Ruby on Rails App Hosted on Heroku"
 excerpts: ""
 ---
 
