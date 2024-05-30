@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to Implement dynamic Subdomains in a Ruby on Rails App Hosted on Heroku"
-excerpts: ""
+excerpts: "Learn to integrate custom subdomains into your Ruby on Rails apps on Heroku. From SSL setup to routing constraints."
 ---
 
 In the digital age, many modern SaaS platforms provide each user or company with a dedicated subdomain (e.g. `company.myapp.com`) that they can share with clients. This article will guide you through setting up similar functionality for your Ruby on Rails application hosted on Heroku.
